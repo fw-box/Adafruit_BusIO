@@ -14,7 +14,8 @@
     defined(ARDUINO_AVR_ATmega4808) || defined(ARDUINO_AVR_ATmega3209) ||      \
     defined(ARDUINO_AVR_ATmega3208) || defined(ARDUINO_AVR_ATmega1609) ||      \
     defined(ARDUINO_AVR_ATmega1608) || defined(ARDUINO_AVR_ATmega809) ||       \
-    defined(ARDUINO_AVR_ATmega808) || defined(ARDUINO_ARCH_ARC32)
+    defined(ARDUINO_AVR_ATmega808) || defined(ARDUINO_ARCH_ARC32) ||           \
+    defined(STM32GENERIC)
 
 typedef enum _BitOrder {
   SPI_BITORDER_MSBFIRST = MSBFIRST,
